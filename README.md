@@ -7,8 +7,8 @@
 This is a simple node.js app that is used for generating custom logos. It prompts the user for a specified shape, logo-text, shape color, and text color and then it outputs a new SVG file matching those specifications.
 
 ## Visuals
-demo.mp4
-<video src="assets/media/demo.mp4" controls title="Title"></video>
+
+https://github.com/zaingova/zaingova-SVGLogoMaker/assets/127261218/4bf7e70a-87c1-42b7-a51a-d6baecf1c782
 
 ## Usage
 
