@@ -12,6 +12,8 @@ https://github.com/zaingova/zaingova-SVGLogoMaker/assets/127261218/4bf7e70a-87c1
 
 ## Usage
 
+[Click here to be redirected to the Github repository](https://github.com/zaingova/zaingova-SVGLogoMaker)
+
 To use this app, npm install the dependancies located in the package.json folder, then run 'node index.js' in your terminal.
 
 Follow the instructions in the terminal by selecting the logo shape, text-content, logo-color, and text-color. For the colors, you have the choice to enter some generic colors as a string or alternatively, any color you would like in hexadecimal format. Then, a new file called logo.svg will be generated containing your logo. Re-running the program will overwrite your old logo.
