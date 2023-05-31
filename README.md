@@ -7,7 +7,7 @@
 This is a simple node.js app that is used for generating custom logos. It prompts the user for a specified shape, logo-text, shape color, and text color and then it outputs a new SVG file matching those specifications.
 
 ## Visuals
-
+demo.mp4
 <video src="assets/media/demo.mp4" controls title="Title"></video>
 
 ## Usage
