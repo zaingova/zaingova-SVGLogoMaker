@@ -2,10 +2,8 @@
 const { Circle, Triangle, Rectangle } = require('./lib/dev/shape')
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { validate } = require('@babel/types');
 
 class SVGLogo {
-
     // renderShape function - based on the user-choice for the shape, creates a class-instance and calls it's unique render function
     renderShape = ((data) => {
         switch (data.shapeType) {
@@ -77,7 +75,6 @@ class SVGLogo {
                             throw new Error("INVALID COLOR");
                         }
                     }
-
                 }
             ])
 
@@ -85,7 +82,6 @@ class SVGLogo {
             .then((data) => {
                 // pass the return value from renderShape into the createSVG function - renderShape returns SVG data
                 this.createSVG(this.renderShape(data));
-                return data;
             })
     })
 
@@ -141,3 +137,5 @@ const svgLogo = new SVGLogo();
 
 // calls the init function to run the app
 svgLogo.init();
+
+module.exports = SVGLogo;
